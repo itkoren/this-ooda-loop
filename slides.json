@@ -1,0 +1,22 @@
+[{
+    "steps": [
+        [{
+            "name": "p",
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/7089618/d5935bd4-dfa5-11e4-96af-40fdaedc67db.png",
+                    "style": "width: 429px; height: 283px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 269px; top: 6px;",
+                    "class": "absolute-element"
+                }
+            }]
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 327px;"
+            },
+            "value": "\"this\" OODA loop"
+        }]
+    ]
+}]
