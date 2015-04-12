@@ -5,7 +5,7 @@
             "value": [{
                 "name": "img",
                 "attributes": {
-                    "src": "https://cloud.githubusercontent.com/assets/3624786/7089618/d5935bd4-dfa5-11e4-96af-40fdaedc67db.png",
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/7101306/886c4274-e05b-11e4-9881-1f016f96b19f.png",
                     "style": "width: 429px; height: 283px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 269px; top: 6px;",
                     "class": "absolute-element"
                 }
@@ -14,9 +14,331 @@
             "name": "h2",
             "attributes": {
                 "class": "absolute-element",
-                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 217px; top: 327px;"
+                "style": "position: absolute; width: 586px; height: 65px; z-index: 4; left: 200px; top: 327px;"
             },
-            "value": "this OODA loop"
+            "value": "[e] this OODA loop"
+        }],
+        [{
+            "name": "h2",
+            "value": "WAT?"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "[e] - just for my game of words ;)"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "\"this\" - a very confusing javascript keyword"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "OODA loop - refers to the decision cycle of observe, orient, decide, and act, developed by military strategist and USAF Colonel John Boyd which often applied to learning processes (<a href=\"http://en.wikipedia.org/wiki/OODA_loop\" target=\"blank\">wikipedia</a>)"
+                }]
+            }]
+        }, {
+            "name": "notes",
+            "value": "Spanish, Polish, Yedish, German, English"
+        }],
+        [{
+            "name": "p",
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/7089618/d5935bd4-dfa5-11e4-96af-40fdaedc67db.png",
+                    "style": "width: 429px; height: 283px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 269px; top: -80px;",
+                    "class": "absolute-element"
+                }
+            }]
+        }],
+        [{
+            "name": "h2",
+            "value": "What is \"this\"?"
+        }, {
+            "name": "p",
+            "attributes": {
+                "class": "fragment",
+                "data-fragment-index": "0"
+            },
+            "value": "When a function is created, a keyword called \"this\" is created, and bound to the object in which the function operates (execution context object)"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//itkoren.github.io/egist/?data-gist-id=bb74b816fab8db026b94&amp;data-gist-file=execution_context_object.js",
+                    "style": "width: 916px; height: 302px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/sebayi/1/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "For a raw function invocation, the value of \"this\" will be the \"global\" or \"window\" object"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/sebayi/2/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "For a strict mode raw function, the value of \"this\" will be undefined"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/tafiba/2/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "Method calls assign \"this\" to the object from which they are called"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/zevapa/2/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "Defining a function on an object, does not mean the function will be invoked on that object"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/zevapa/3/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "And Again, For a strict mode raw function, the value of \"this\" will be undefined"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/ratota/2/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "When a function is used as a constructor, the value of \"this\" within that function becomes a new object instance, of the \"type\" that the function represents"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/tiwano/2/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/vajofa/1/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": ".call and .apply overrides the value of \"this\" for the execution"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/zacoxa/2/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "ES5 .bind allows you to set the context of a function without invoking it"
+        }],
+        [{
+            "name": "p",
+            "value": "We can use .bind-and-replace technique with constructor functions"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/posomu/3/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "The use of .bind allows us to force override the value of \"this\" for any function in JavaScript when we need to"
+        }],
+        [{
+            "name": "p",
+            "value": ".bind can be also used for binding argument values"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/hejuci/1/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "But which one is stronger???"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/xujuro/1/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/7101151/a3bd9f9a-e052-11e4-86f0-14841508f543.png",
+                    "style": "width: 429px; height: 283px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 269px; top: 0;",
+                    "class": "absolute-element"
+                }
+            }]
+        }, {
+            "name": "h2",
+            "attributes": {
+                "class": "absolute-element",
+                "style": "position: absolute; width: 886px; height: 65px; z-index: 4; left: 50px; top: 320px;"
+            },
+            "value": "So be careful and understand when to use the context forced override given by .bind!"
+        }],
+        [{
+            "name": "h2",
+            "value": "Wrap Up:"
+        }, {
+            "name": "div",
+            "value": [{
+                "name": "ul",
+                "value": [{
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "0"
+                    },
+                    "value": "Raw function: \"this\" = global context OR undefined (for strict mode)"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "1"
+                    },
+                    "value": "Object with method: \"this\" = the object from which the method is called"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "2"
+                    },
+                    "value": "Constructor function: \"this\" = a new object instance, of the \"type\" that the function represents"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "3"
+                    },
+                    "value": ".call and .apply: \"this\" = an argument passed at invokation"
+                }, {
+                    "name": "li",
+                    "attributes": {
+                        "class": "fragment",
+                        "data-fragment-index": "4"
+                    },
+                    "value": ".bind method: \"this\" = an argument passed at construction to generate a new function"
+                }]
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": "One last (simple by now) quiz"
+        }],
+        [{
+            "name": "div",
+            "value": [{
+                "name": "iframe",
+                "attributes": {
+                    "src": "//jsbin.com/biweni/2/embed?js",
+                    "style": "width: 916px; height: 692px; max-height: none; max-width: none;"
+                }
+            }]
+        }],
+        [{
+            "name": "p",
+            "value": [{
+                "name": "img",
+                "attributes": {
+                    "src": "https://cloud.githubusercontent.com/assets/3624786/7101164/97149acc-e053-11e4-8f81-85bd5c1d1918.png",
+                    "style": "width: 629px; height: 483px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 200px; top: -200px;",
+                    "class": "absolute-element"
+                }
+            }]
         }]
     ]
 }]
